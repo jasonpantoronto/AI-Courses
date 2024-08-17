@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/expressway');
+
+.CourseGrid {
+    margin: 10%;
+    display: grid;
+    max-width: 30em;
+    aspect-ratio: 1.3/1;
+    grid-template-rows: 1fr 6fr 2fr;
+    color: white;
+    font-family: 'Expressway Rg';
+    letter-spacing: 0.1em;
+
+}
+
+.Header {
+    background-color: #2f1664 ;
+    border: black 0.2em;
+    border-radius: 1em 1em 0em 0em;
+    border-style: solid solid none solid;
+}
+
+.Body {
+    background-color: white;
+    border: #2f1664 0.2em;
+    border-style: none solid none solid;
+    align-content: center;
+    text-align: center;
+
+}
+
+.Footer{
+    background-color: #2f1664;
+    border: black 0.2em;
+    border-style: none solid solid solid;
+    border-radius: 0em 0em 1em 1em;
+    padding: 3%;
+}
+
+.BallGrid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 8fr;
+    
+}
+
+#BallA {
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: #ff8096;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+#BallB {
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: #ff9c7e;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+#BallC {
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: #ffba7f;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+#BallD {
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: #42d5b6;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+h1 {
+    font-size: 150%;
+    margin-left: 3%;
+    margin-top: -0.07em;
+}
+
+p {
+    margin-left: 4%;
+}
