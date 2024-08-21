@@ -1,0 +1,16 @@
+.CoursePanel {
+    outline: magenta solid;
+    width: 100%;
+    height: 100%;
+    grid-area: coursepanel;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CourseContainer {
+    width: 95%;
+    height: 95%;
+    border: solid black 1px;
+    border-radius: 1em;
+}
