@@ -1,3 +1,4 @@
+import {motion} from "framer-motion";
 import styles from './CourseBlock.module.css'
 
 function CourseBlock(props) {
@@ -8,7 +9,11 @@ function CourseBlock(props) {
     }
 
     return(
-        <div className={styles.CourseGrid}>
+        
+        <motion.div className={styles.CourseGrid}
+            whileHover = {{scale: 1.03}}
+            whileTap = {{scale: 0.97}}
+        >
             
             <div className = {styles.Header}>
                 <div className= {styles.BallGrid}>
@@ -27,8 +32,7 @@ function CourseBlock(props) {
                 <h1>{props.course}</h1>
                 <p>Continue: {props.unit}</p>
             </div>
-
-        </div>
+        </motion.div>
 
 
     );
