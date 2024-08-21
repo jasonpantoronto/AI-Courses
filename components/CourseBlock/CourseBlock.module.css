@@ -2,7 +2,7 @@
 
 .CourseGrid {
     display: grid;
-    max-width: 20em;
+    width: 15rem;
     aspect-ratio: 1.3/1;
     grid-template-rows: 1fr 6fr 2fr;
     color: white;
@@ -31,7 +31,7 @@
     border: black 0.2em;
     border-style: none solid solid solid;
     border-radius: 0em 0em 1em 1em;
-    padding: 3%;
+    line-height: 0.5em;
 }
 
 .BallGrid {
@@ -79,11 +79,11 @@
 }
 
 h1 {
-    font-size: 150%;
     margin-left: 3%;
-    margin-top: -0.07em;
+    font-size: 100%;
 }
 
 p {
     margin-left: 4%;
+    font-size: 70%;
 }

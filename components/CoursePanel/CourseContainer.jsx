@@ -4,8 +4,13 @@ import CourseBlock from "@/components/CourseBlock/CourseBlock.jsx"
 function CourseContainer() {
     return(
         <div className={styles.CourseContainer}>
-            <CourseBlock></CourseBlock>
-            <CourseBlock></CourseBlock>
+            <CourseBlock course = "math"></CourseBlock>
+            <CourseBlock course = "math"></CourseBlock>
+            <CourseBlock course = "math"></CourseBlock>
+            <CourseBlock course = "math"></CourseBlock>
+            <CourseBlock course = "math"></CourseBlock>
+            <CourseBlock course = "math"></CourseBlock>
+            <CourseBlock course = "math"></CourseBlock>
         </div>
     );
 }

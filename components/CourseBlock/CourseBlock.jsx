@@ -30,7 +30,7 @@ function CourseBlock(props) {
 
             <div className = {styles.Footer}>
                 <h1>{props.course}</h1>
-                <p>Continue: {props.unit}</p>
+                <p>Continue: Unit {props.unit}</p>
             </div>
         </motion.div>
 

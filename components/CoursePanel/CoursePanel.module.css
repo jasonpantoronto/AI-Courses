@@ -13,4 +13,25 @@
     height: 95%;
     border: solid black 1px;
     border-radius: 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .CourseContainer {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+}
+
+@media (max-width: 580px) {
+    .CourseContainer {
+        grid-template-columns: auto;
+        grid-template-rows: repeat();
+    }
 }

@@ -5,8 +5,6 @@ function CoursePanel() {
     return(
         <div className= {styles.CoursePanel}>
             <CourseContainer></CourseContainer>
-
-
         </div>
     );
 }
